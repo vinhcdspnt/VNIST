@@ -24,5 +24,12 @@ class PageController extends Controller
     } 
     public function service(){
     	return view('theme::service');
-    }         
+    }
+    public function show($slug)
+    {
+    	if($page = Page::findBySlug($slug)){
+            return view('theme::page.show',['page'=>$page]);
+        }
+    	//return abort(404);
+    }             
 }

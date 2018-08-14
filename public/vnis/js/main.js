@@ -415,13 +415,16 @@ $(document).ready(function() {
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
+    var vid = document.getElementById ("videoId");
+    
+    $(vid).hide();    
     var player;
 
     var onYouTubeIframeAPIReady = function () {
         player = new YT.Player('player', {
             height: '244',
             width: '434',
-            videoId: 'JGfTf6R138s',//'VZ9MBYfu_0A',  // youtube video id
+            //videoId: 'JGfTf6R138s',  // youtube video id
             playerVars: {
                 'autoplay': 0,
                 'rel': 0,
@@ -449,6 +452,8 @@ $(document).ready(function() {
         $(this).hide();
         $("#player").show();
         $("#thumbnail_container").hide();
+        //alert();
+        player.loadVideoById(vid.innerHTML);
         player.playVideo();
     });
 

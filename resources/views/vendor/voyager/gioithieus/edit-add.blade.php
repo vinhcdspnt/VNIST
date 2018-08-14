@@ -206,14 +206,16 @@
                                         <option value="PENDING"@if(isset($dataTypeContent->status) && $dataTypeContent->status == 'PENDING') selected="selected"@endif>{{ __('voyager::post.status_pending') }}</option>
                                     </select>
                                 </div>
-                                {{--  <div class="form-group">
-                                    <label for="category_id">{{ __('voyager::post.category') }}</label>
-                                    <select class="form-control" name="category_id">
+                                <div class="form-group">
+                                    <label for="category_slug">Category slug</label>
+                                    <input type="text" class="form-control" id="category_slug" name="category_slug"
+                                    value="gioi-thieu" readonly="readonly">
+                                    {{--  <select class="form-control" name="category_id">
                                         @foreach(TCG\Voyager\Models\Category::all() as $category)
                                             <option value="{{ $category->id }}"@if(isset($dataTypeContent->category_id) && $dataTypeContent->category_id == $category->id) selected="selected"@endif>{{ $category->name }}</option>
                                         @endforeach
-                                    </select>
-                                </div>  --}}
+                                    </select>  --}}
+                                </div>
                                 <div class="form-group">
                                     <label for="featured">{{ __('voyager::generic.featured') }}</label>
                                     <input type="checkbox" name="featured"@if(isset($dataTypeContent->featured) && $dataTypeContent->featured) checked="checked"@endif>

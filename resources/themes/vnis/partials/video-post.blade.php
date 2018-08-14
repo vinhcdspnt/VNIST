@@ -1,29 +1,29 @@
 <div class="single-sidebar-widget editors-pick-widget">
-        <h6 class="title">Editor’s Pick</h6>
+        <h6 class="title">Video Clips</h6>
         <div class="editors-pick-post">
-            <div class="feature-img-wrap relative">
-                <div class="feature-img relative">
-                    <div class="overlay overlay-bg"></div>
-                    <img class="img-fluid" src="vnis/img/e1.jpg" alt="">
-                </div>
-                <ul class="tags">
-                    <li><a href="#">Travel</a></li>
-                </ul>
-            </div>
-            <div class="details">
-                <a href="image-post.html">
-                    <h4 class="mt-20">A Discount Toner Cartridge Is
-                    Better Than Ever.</h4>
-                </a>
-                <ul class="meta">
-                    <li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
-                    <li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
-
-                </ul>
-                <p class="excert">
-                    Lorem ipsum dolor sit amet, consecteturadip isicing elit, sed do eiusmod tempor incididunt ed do eius.
-                </p>
-            </div>
+                <div class="feature-img-wrap relative">
+                        <div class="feature-img relative">
+                            <div class="overlay overlay-bg"></div>
+                            <img class="img-fluid" src="vnis/img/e1.jpg" alt="">
+                        </div>
+                        <ul class="tags">
+                            <li><a href="#">Travel</a></li>
+                        </ul>
+                    </div>
+                    <div class="details">
+                        <a href="image-post.html">
+                            <h4 class="mt-20">A Discount Toner Cartridge Is
+                            Better Than Ever.</h4>
+                        </a>
+                        <ul class="meta">
+                            <li><a href="#"><span class="lnr lnr-user"></span>Mark wiens</a></li>
+                            <li><a href="#"><span class="lnr lnr-calendar-full"></span>03 April, 2018</a></li>
+        
+                        </ul>
+                        <p class="excert">
+                            Lorem ipsum dolor sit amet, consecteturadip isicing elit, sed do eiusmod tempor incididunt ed do eius.
+                        </p>
+                    </div>
             <div class="post-lists">
                 <div class="single-post d-flex flex-row">
                     <div class="thumb">

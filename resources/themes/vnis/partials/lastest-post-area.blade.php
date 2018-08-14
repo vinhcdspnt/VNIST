@@ -100,7 +100,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="sidebars-area">
-                    @include('theme::partials.editor-pick-post')
+                    @include('theme::partials.video-post')
                     <div class="single-sidebar-widget ads-widget">
                         <img class="img-fluid" src="vnis/img/sidebar-ads.jpg" alt="">
                     </div>
